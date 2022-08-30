@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'net.octoberserver'
-version = '0.1-SNAPSHOT'
+version = '1.0-SNAPSHOT'
 
 compileJava.options.encoding = 'UTF-8'
 
