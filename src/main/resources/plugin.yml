@@ -1,0 +1,8 @@
+name: CustomItems
+version: '${version}'
+main: net.octoberserver.customitems.CustomItems
+api-version: 1.13
+prefix: CItems
+authors: [ october ]
+description: 十月伺服器生存分流的定製物品插件
+website: dev.octoberserver.net
