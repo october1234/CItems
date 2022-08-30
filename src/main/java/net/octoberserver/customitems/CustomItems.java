@@ -8,14 +8,12 @@ import java.util.logging.LogManager;
 
 public final class CustomItems extends JavaPlugin {
 
-    public static Plugin getPlugin() {
-        return getPlugin();
-    }
-
+    public static Plugin main ;
     @Override
     public void onEnable() {
         // Plugin startup logic
         getServer().getPluginManager().registerEvents(new eventListener(), this);
+        main = this;
     }
 
     @Override

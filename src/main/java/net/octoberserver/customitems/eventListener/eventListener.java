@@ -10,7 +10,7 @@ public class eventListener implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         if(event.getPlayer().getInventory().getItem(8) == null){
-            CustomItems.getPlugin().getLogger().info("YAY");
+            CustomItems.main.getLogger().info("TEST!");
         }
     }
 }
